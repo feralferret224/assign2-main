@@ -1,5 +1,5 @@
 body {
-	background-color: #fff5e3;
+	background-color: #dbeff6;
 }
 
 .custom-icon {
@@ -9,24 +9,30 @@ body {
 
 #top_header {
 	/* background-color: #fab430; */
-	/* background-image: url("../../media/examples/lizard.png"); */
-	background-image: url("img/bobabg1.png");
+	mask-image: url("img/corner-mask.png");
+	background-color: #0c4056;
 	background-size: contain;
 }
 
 #navbar {
-	background-color: #c88d52;
+	background-color: #1e647d;
+	scroll-padding-block-start: .3rem;
+}
+
+.navbar-nav {
+	border-radius: .3rem;
 }
 
 .nav-item {
 	font-weight:800;
 	margin: .5rem;
-	border-radius: .5rem;
+	border-radius: .3rem;
 }
 
 .nav-item:hover {
 	font-weight:900;
-	text-shadow: 2px 2px 4px #9a6d41;
+	text-shadow: 2px 2px 4px 
+	#dbeff6;
 }
 
 .list-group-item {
@@ -34,26 +40,31 @@ body {
 }
 
 .emphasis {
-	background-color: #f2a4149e;
+	background-color: #a2e9ffe4;
+}
+
+.grit {
+  -webkit-mask-image: url("img/grit.png");
+  mask-image: url("img/grit.png");
 }
 
 img {
-	border-radius: .5rem;
-	border: 3px solid #2f230baf;
+	border-radius: .3rem;
+	max-width: 60%;
 }
 
 ul {
-	background-color: #fab33066;
-	border-radius: .5rem;
+	background-color: #488fa771;
+	/* border-radius: .5rem; */
 	/* padding: 10px; */
 	/* padding-top: .5rem;
 	padding-bottom: .5rem; */
 }
 
 p {
-	border-radius: .5rem;
+	border-radius: .3rem;
 	/* background-color: #d2e6f9aa; */
-	background-color: #fab33066;
+	background-color: #488fa72c;
 	padding: .6rem;
 	margin-top: .6rem;
 }

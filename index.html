@@ -20,25 +20,28 @@
 
 <div class="p-5 text-white text-center" id="top_header">
 		<div class="row justify-content-md-center">
-				<h1 style="text-shadow: 2px 2px 3px #a87645;"><strong>Personas and Storyboarding</strong></h1>
+				<h1 ><strong>Reactive Redesign</strong></h1>
 		</div>
-		<h5 style="text-shadow: 2px 2px 3px #a87645;" class="mt-2">A study of the Tiger Sugar order kiosk interface</h5> 
+		<h5 class="mt-2">A redesign of The Brown Noser satire newspaper's website</h5> 
 	</div>
 	
 <nav class="navbar navbar-expand-sm navbar-dark center" id="navbar">
   <div class="container-fluid">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item">
-        <a class="nav-link active" href="#interface">My Interface</a>
+        <a class="nav-link active" href="#usability">Original Usability Issues</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#summaries">Interview Summaries</a>
+        <a class="nav-link active" href="#lo-fi">Lo-Fi Wireframe</a>
+      </li>
+			<li class="nav-item">
+        <a class="nav-link active" href="#design">Design Guide</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#maps">Empathy Maps</a>
+        <a class="nav-link active" href="#hi-fi">Hi-Fi Prototype </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#storyboard">Storyboard</a>
+        <a class="nav-link active" href="#redesign">Final Redesign</a>
       </li>
     </ul>
   </div>
@@ -47,33 +50,52 @@
 <div class="container-md mt-5">
   <div class="row">
     <div class="col-md-auto">
-      <h2 id="interface">Interface</h2>
-      <h5>Sketches of the kiosk</h5>
+      <h2 id="usability">Initial usability issues</h2>
+      <h5 class="mt-3">Original webpage</h5>
 			<div class="row">
-				<div class="col-sm">
-					<img src="img/Home Screen.png" class="img-fluid" alt="Responsive image">
-					<p>The kiosk home screen</p>
+				<div class="col-xl">
+					<img src="img/origpage.png" class="img-fluid" alt="Image of original website">					
 				</div>
-				<div class="col-sm">
-				<img src="img/Ordering Screen.png" class="img-fluid" alt="Responsive image">
-				<p>The kiosk ordering screen</p>
+				<!-- <div class="col-sm-2">
+					<p>I chose to redesign website because it's the website for the satire page of my university, and I spend a fair amount of time on it.</p>
+					<h6 class="pt-1">Visit the original <a href="http://thenoser.com">here</a></h6>
+				</div> -->
+				<div class="col-md">
+					<p>I chose to redesign website because it's the website for the satire page of my university, and I spend a fair amount of time on it. Visit the original <a href="http://thenoser.com">here</a></p>
+					<!-- <h6 class="pt-1">Visit the original <a href="http://thenoser.com">here</a></h6> -->
+					<h5 class="mt-3">Issues I've noticed:</h5>
+					<ol class="list-group list-group-flush list-group-numbered">
+						<li class="list-group-item">The page looks outdated</li>
+						<li class="list-group-item">The section navigation bar is poorly formatted</li>
+						<li class="list-group-item">The picture for the main headline (the middle article) is not larger than the other pictures, meaning the page isn’t fully calling attention to the article</li>
+						<li class="list-group-item">There’s no “about” or “join us” page</li>
+						<li class="list-group-item">The page is meant to emulate a newspaper, but it looks crowded</li>
+						<li class="list-group-item">On tablet and phone, the articles don’t reorder on the page. Instead, the text and photos become smaller, and the entire view compresses</li>
+					</ol>
+				</div>
+				<p class="m-3">The accessibility test revealed that there were some photos <strong class="emphasis">missing alternative text</strong>, there was <b class="emphasis">no set language</b>, and there were some <b class="emphasis">missing form labels</b> as well. There were also <b class="emphasis">no page regions</b> found. The overall structure of the page was fairly clear, and the hierarchies were consistent from an accessibility standpoint. I would disagree that the hierarchies are as clear from a design standpoint as the main headline isn’t clearly highlighted. Additionally, when the display was the size of a phone, the <b class="emphasis">text was extremely small</b>, which may pose difficulties for users with low vision.
+				</p>
+			</div>
+      
+			<h2 class="mt-5" id="lo-fi">Low-fidelity wireframes</h2>
+			<div class="row mt-3">
+				<div class="col-lg-auto">
+					<h5>Desktop</h5>
+					<img src="img/lo-fi-desktop.png" class="img-fluid" alt="lo-fi-desktop image">
+				</div>
+				<div class="mt-3 col-sm">
+					<h5>Tablet</h5>
+					<img src="img/lo-fi-tablet.png" class="img-fluid" alt="lo-fi-tablet image">
+				</div>
+				<div class="mt-3 col-sm">
+					<h5>Phone</h5>
+					<img src="img/lo-fi-phone.png" class="img-fluid" alt="lo-fi-phone image">
 				</div>
 			</div>
-      <p>This is the ordering kiosk at Tiger Sugar, a boba shop on Thayer St. It allows the user to order without speaking to the cashier, 
-				avoiding lines, and it displays photos of all the menu offerings, which the typical menu does not. The typical steps for ordering are
-				select a drink from the home page, customize the drink in the ordering page, select "checkout," enter your phone number for rewards and 
-				order updates, and complete the order by paying and adding a tip. 
-			</p>
-
-      <h2 class="mt-5" id="summaries">Interview Summaries</h2>
-			<h5 class="mt-3">Questions asked:</h5>
+			<!-- <h5 class="mt-3">Questions asked:</h5>
 			<ol class="list-group list-group-flush list-group-numbered">
-				<!-- <li class="list-group-item">Do you use meal ordering services like Doordash/Grubhub/Ubereats/Snackpass? If so, how often? </li> -->
-				<!-- <li class="list-group-item">Have you used this kiosk before?</li> -->
-				<!-- <li class="list-group-item">Have you used similar kiosks before?</li> -->
 				<li class="list-group-item">How often do you order from Tigar Sugar using the kiosk?</li>
 				<li class="list-group-item">Do you prefer ordering with the kiosk or the cashier? Why?</li>
-				<!-- <li class="list-group-item">Did you make you drink selection based on the promoted section?</li> -->
 				<li class="list-group-item">Do you have a regular boba order?</li>
 				<li class="list-group-item">How would you rate the process of finding and customizing your order on this interface?</li>
 				<li class="list-group-item">Were there more or fewer steps than you thought there would be? </li>
@@ -101,10 +123,21 @@
 			<p>
 				Returning users felt that the customizations offered on the customization page were not always consitent with their typical order, and that some of the customization options
 				were contradictory or confusing. New users typically did not make as much use of the customization page (beyond allergen requirements) because they were less familiar with the drink they were ordering.
-			</p>
+			</p> -->
 		
-			<h2 class="mt-5" id="maps">Empathy Maps</h2>
-			<div class="row mt-3">
+			<h2 class="mt-5" class="col-xl-5" id="design">Design guide</h2>
+			<h5>Reference for prototype</h5>
+			<img src="img/Design Style Guide.png" class="img-fluid" alt="Design Stlye Guide image">
+
+			<!-- <div class="row mt-3">
+				<div class="col-md-5">
+					<h5>Desktop</h5>
+					<img src="img/NewbieNicole.png" class="img-fluid" alt="Responsive image">
+					<p><strong class="emphasis">Newbie Nicole</strong> is a first time visiter at Tiger Sugar, and she doesn't drink bubble tea regularly. She approaches the kiosk because there's a line at the cashier,
+						and because there are photos of the drinks on the kiosk and not on the menu behind the cashier. She takes her time and scrolls through the home page, which lists 
+						different drinks, and is overwhelmed by the diffent options. She does not select customizations for her drink because she doesn't have preferences yet.
+					</p>
+				</div>
 				<div class="col-sm">
 					<h5>Newbie Nicole</h5>
 					<img src="img/NewbieNicole.png" class="img-fluid" alt="Responsive image">
@@ -121,13 +154,44 @@
 						the interface. He does appreciate the ability to collect reward points on the kiosk, which is not available at the cashier.
 					</p>
 				</div>
+			</div> -->
+
+      <h2 class="mt-5" id="hi-fi">High-fidelity prototypes</h2>
+			<div class="row mt-3">
+				<div class="col-lg-auto">
+					<h5>Desktop</h5>
+					<img src="img/hi-fi-desktop.png" class="img-fluid" alt="hi-fi-desktop image">
+				</div>
+				<div class="mt-3 col-sm">
+					<h5>Tablet</h5>
+					<img src="img/hi-fi-tablet.png" class="img-fluid" alt="hi-fi-tablet image">
+				</div>
+				<div class="mt-3 col-sm">
+					<h5>Phone</h5>
+					<img src="img/hi-fi-phone.png" class="img-fluid" alt="hi-fi-phone image">
+				</div>
+
+			<h2 class="mt-5" id="redesign">Final redesign</h2>
+			<div class="row d-flex">
+				
+				<!-- <div class="col-sm-2">
+					<p>I chose to redesign website because it's the website for the satire page of my university, and I spend a fair amount of time on it.</p>
+					<h6 class="pt-1">Visit the original <a href="http://thenoser.com">here</a></h6>
+				</div> -->
+				<div class="col-lg">
+					<p>This is the final product: a restructured, cleaner page. Visit the redesign <a href="http://thenoser.com">here</a></p>
+					<!-- <h6 class="pt-1">Visit the original <a href="http://thenoser.com">here</a></h6> -->
+				</div>
+				<div class="col-xl-auto">
+					<img src="img/redesign.png" class="img-fluid" alt="Image of original website">					
+				</div>
 			</div>
 
-      <h2 class="mt-5" id="storyboard">Storyboard</h2>
-      <h5>Newbie Nicole goes to Tiger Sugar for the first time</h5>
-			<img src="img/storyboard.png" class="img-fluid" alt="Responsive image">
+      <!-- <h5>Newbie Nicole goes to Tiger Sugar for the first time</h5>
+			<img src="img/storyboard.png" class="img-fluid" alt="Responsive image"> -->
 		</div>
   </div>
+</div>
 </div>
 
 <nav class="navbar navbar-expand-sm navbar-dark center mt-5" id="navbar">
