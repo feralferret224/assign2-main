@@ -1,0 +1,59 @@
+body {
+	background-color: #fff5e3;
+}
+
+.custom-icon {
+	width: 200px;
+	height: 180px;
+}
+
+#top_header {
+	/* background-color: #fab430; */
+	/* background-image: url("../../media/examples/lizard.png"); */
+	background-image: url("img/bobabg1.png");
+	background-size: contain;
+}
+
+#navbar {
+	background-color: #c88d52;
+}
+
+.nav-item {
+	font-weight:800;
+	margin: .5rem;
+	border-radius: .5rem;
+}
+
+.nav-item:hover {
+	font-weight:900;
+	text-shadow: 2px 2px 4px #9a6d41;
+}
+
+.list-group-item {
+	background-color: transparent;
+}
+
+.emphasis {
+	background-color: #f2a4149e;
+}
+
+img {
+	border-radius: .5rem;
+	border: 3px solid #2f230baf;
+}
+
+ul {
+	background-color: #fab33066;
+	border-radius: .5rem;
+	/* padding: 10px; */
+	/* padding-top: .5rem;
+	padding-bottom: .5rem; */
+}
+
+p {
+	border-radius: .5rem;
+	/* background-color: #d2e6f9aa; */
+	background-color: #fab33066;
+	padding: .6rem;
+	margin-top: .6rem;
+}
